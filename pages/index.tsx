@@ -67,8 +67,13 @@ const Home: NextPage = () => {
           <SquareImage size='large' />
         </div>
         <div className='promotion-banner'>
-          <div className={'promotion-banner-left'} id={'flex-9'}></div>
-          <div className={'promotion-banner-right'} id={'flex-10'}></div>
+          <div className={'promotion-banner-left'} id={'flex-9'}>
+            <RectBanner size='small' />
+            <RectBanner size='small' />
+          </div>
+          <div className={'promotion-banner-right'} id={'flex-10'}>
+            <RectBanner size='medium' />
+          </div>
         </div>
       </main>
     </div>

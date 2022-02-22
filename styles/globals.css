@@ -176,9 +176,11 @@ button {
 }
 
 #flex-7 {
+  display: flex;
 }
 
 #flex-8 {
+  flex: 1;
 }
 
 #flex-9 {

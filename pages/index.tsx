@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import IconItem from '../components/IconItem';
 import MenuItem from '../components/MenuItem';
+import ProductCard from '../components/ProductCard';
 import RectBanner from '../components/RectBanner';
 import SearchInput from '../components/SearchInput';
 import SquareImage from '../components/SquareImage';
@@ -45,7 +46,11 @@ const Home: NextPage = () => {
           <SquareImage size='small' />
         </div>
         <h1 className='heading'>Products</h1>
-        <div className='product-list' id='flex-6'></div>
+        <div className='product-list' id='flex-6'>
+          {[...Array(10)].map((_, index) => (
+            <ProductCard key={index} />
+          ))}
+        </div>
         <div className='text-combo' id='flex-7'>
           <div className='paragraph-box' id='flex-8'>
             <h1 className='heading'>Best Seller</h1>

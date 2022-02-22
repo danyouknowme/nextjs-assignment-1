@@ -164,14 +164,14 @@ button {
 #flex-5 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 #flex-6 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -181,6 +181,8 @@ button {
 
 #flex-8 {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 #flex-9 {
@@ -206,12 +208,16 @@ button {
   }
 
   #flex-5 {
+    justify-content: space-around;
   }
 
   #flex-7 {
+    align-items: center;
+    flex-direction: column-reverse;
   }
 
   #flex-8 {
+    align-items: center;
   }
 }
 

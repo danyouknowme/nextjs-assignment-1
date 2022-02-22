@@ -141,6 +141,9 @@ button {
 }
 
 #flex-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #flex-2 {
@@ -166,6 +169,10 @@ button {
 }
 
 #flex-6 {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; */
 }
 
 #flex-7 {
